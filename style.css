@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 } 
+
+.conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+form {
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-control {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+input {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: aquamarine;
+    border: 0;
+    cursor: pointer;
+}
+
