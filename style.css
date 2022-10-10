@@ -50,10 +50,6 @@ input:valid {
     border: 2px solid aquamarine;
 }
 
-input:valid ~ label {
-    background-color: red;
-}
-
 input[type="submit"] {
     padding: 7px 15px;
     background-color: aquamarine;
