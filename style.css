@@ -41,5 +41,10 @@ input[type="submit"] {
     background-color: aquamarine;
     border: 0;
     cursor: pointer;
+    transition: all 0.5s ease-out;
 }
 
+input[type="submit"].invalid {
+    background-color: orangered;
+    cursor: not-allowed;
+}
